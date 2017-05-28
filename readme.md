@@ -1,4 +1,26 @@
+# Laravel Nedir
+
+Laravel, Taylor Otwell tarafından hazırlanan ve MVC mimari desenini takiben web uygulamalarının geliştirilmesi için tasarlanmış, özgür, açık kaynak kodlu bir PHP web çatısıdır. "PHP framework for Web Artisans" slaganı ile yola çıkar. Bağımlılık yöneticisi olan bir paketleme sistemi, çok farklı yollarla ilişkisel veri tabanı bağlantıları kurması ve uygulama bakımı ve dağıtımına yardımcı araçları ile öne çıkar.
+
+### Neden Laravel
+
+Laravel öğrenmesi en kolay olan çatılardandır ve başlamanıza yardımcı olması için birçok çevrimiçi öğretici bulabilirsiniz. Laravel dokümantasyonuna [laravel.com/docs](https://laravel.com/docs/) adresinden ulaşabilirsiniz. Laravel ile yapılmış sayfalar ise [builtwithlaravel.com](http://builtwithlaravel.com/) adresinden ulaşabilirsiniz.
+
+Uzantılar ve paketler söz konusu olduğunda laravel çok öndedir. Laravel paketlerinin bir dizini olan Packalyst, 9.000'den fazla paket sunuyor. Composer kullanarak çok hızlı kurulum yapılabilir. Tonlarca paket ile framework kullanılabilirliğini genişletebilirsiniz.
+
+Blade template ile diğer template sistemlerinin aksine, görünümlerde PHP kodunu kullanmanıza izin verir. Ayrıca, Blade'in uygulama performansı için sıfır yükü vardır çünkü blade görünümü dosyaları .blade.php uzantısında saklandığından, görünüm dosyalarındaki tüm kodlar, işleme sırasında raw PHP'ye dönüştürülür.
+
+Laravel Eloquent ORM kullanır. En gelişmiş Active Record uygulamasıdır. Bizi çok uzun tanımlamalar ve sql sorgularından kurtarır ayrıca yönetmeyi kolaylaştırır. Microsoft BI, MongoDB, MySQL, PostgreSQL, Redis, SQLite gibi veritabalanlarını da destekler.
+
+Müthiş bir route (yönlendirme) mekanizması vardır. Yorulmadan temiz URL elde eder, API'ler için uygun erişim yönlendirmeleri yapabilirsiniz.
+
+Full-Stack frameworktür. Front-end ten back-end'e tüm desteği sunar.
+
+Açık kaynaktır ve kaynak kodları GitHub'da bulunabilir, bu da herkesin katkıda bulunmasını kolaylaştırır. [GitHub/Laravel](https://github.com/laravel/laravel)
+
 # Laravel 5 CRUD MySQL
+
+[Tutorial projesine github repo'dan ulaşabilirsiniz](https://github.com/ozcberkay/Laravel-5-CRUD-MySQL)
 
 Tutorialde, kitapçı envanteri uygulaması yazacağız. Sisteminizde **PHP**, **MySQL**, **Composer** yüklü, ve configuration (PDO-MySQL,  SSL) yapılmış varsayılacaktır.
 
